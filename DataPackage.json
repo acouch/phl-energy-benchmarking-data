@@ -1,0 +1,756 @@
+{
+  "title": "Energy Benchmarking Data",
+  "name": "energy-benchmarking-data",
+  "resources": [
+    {
+      "name": "PropertiesReported.csv",
+      "path": "Large Commercial Buildingss/PropertiesReported.csv",
+      "mediatype": "text/csv",
+      "bytes": 201946,
+      "schema": {
+        "fields": [
+          {
+            "name": "Portfolio Manager ID",
+            "type": "integer"
+          },
+          {
+            "name": "Property Name",
+            "type": "string"
+          },
+          {
+            "name": "Address",
+            "type": "string"
+          },
+          {
+            "name": "Postal Code",
+            "type": "integer"
+          },
+          {
+            "name": "Primary Property Type - EPA Calculated",
+            "type": "string"
+          },
+          {
+            "name": "Property Floor Area (Buildings and Parking) (ft2)",
+            "type": "integer"
+          },
+          {
+            "name": "Year Built",
+            "type": "integer"
+          },
+          {
+            "name": "Number of Buildings",
+            "type": "integer"
+          },
+          {
+            "name": "Philadelphia Building ID",
+            "type": "integer"
+          },
+          {
+            "name": "Electricity Use - Grid Purchase and Generated from Onsite Renewable Systems (kBtu)",
+            "type": "number"
+          },
+          {
+            "name": "Natural Gas Use (kBtu)",
+            "type": "number"
+          },
+          {
+            "name": "Fuel Oil #2 Use (kBtu)",
+            "type": "string"
+          },
+          {
+            "name": "District Steam Use (kBtu)",
+            "type": "string"
+          },
+          {
+            "name": "ENERGY STAR Score",
+            "type": "integer"
+          },
+          {
+            "name": "Site EUI (kBtu/ft2)",
+            "type": "number"
+          },
+          {
+            "name": "Source EUI (kBtu/ft2)",
+            "type": "number"
+          },
+          {
+            "name": "Water Use (All Water Sources) (kgal)",
+            "type": "number"
+          },
+          {
+            "name": "Total GHG Emissions (MtCO2e)",
+            "type": "number"
+          },
+          {
+            "name": "Notes",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PropertiesNotReported.csv",
+      "path": "Large Commercial Buildingss/PropertiesNotReported.csv",
+      "mediatype": "text/csv",
+      "bytes": 6791,
+      "schema": {
+        "fields": [
+          {
+            "name": "Building Address",
+            "type": "string"
+          },
+          {
+            "name": "OPA Number",
+            "type": "integer"
+          },
+          {
+            "name": "OPA Square Footage",
+            "type": "integer"
+          }
+        ]
+      }
+    },
+ {
+      "name": "BenchmarkingCompliance2011.csv",
+      "path": "City Owned Buildings/BenchmarkingCompliance2011.csv",
+      "mediatype": "text/csv",
+      "bytes": 19813,
+      "schema": {
+        "fields": [
+          {
+            "name": "Property Id",
+            "type": "integer"
+          },
+          {
+            "name": "Property Name",
+            "type": "string"
+          },
+          {
+            "name": "Parent Property Id",
+            "type": "string"
+          },
+          {
+            "name": "Parent Property Name",
+            "type": "string"
+          },
+          {
+            "name": "Year Ending",
+            "type": "date"
+          },
+          {
+            "name": "Address 1",
+            "type": "string"
+          },
+          {
+            "name": "Address 2",
+            "type": "string"
+          },
+          {
+            "name": "City",
+            "type": "string"
+          },
+          {
+            "name": "Postal Code",
+            "type": "integer"
+          },
+          {
+            "name": "Primary Property Type - Self Selected",
+            "type": "string"
+          },
+          {
+            "name": "Primary Property Type - EPA Calculated",
+            "type": "string"
+          },
+          {
+            "name": "National Median Reference Property Type",
+            "type": "string"
+          },
+          {
+            "name": "Property Floor Area (Building(s)) (ft²)",
+            "type": "integer"
+          },
+          {
+            "name": "Year Built",
+            "type": "integer"
+          },
+          {
+            "name": "Number of Buildings",
+            "type": "integer"
+          },
+          {
+            "name": "Occupancy",
+            "type": "integer"
+          },
+          {
+            "name": "Custom Property ID 1 - ID",
+            "type": "integer"
+          },
+          {
+            "name": "Philadelphia Building ID",
+            "type": "integer"
+          },
+          {
+            "name": "Electricity Use - Grid Purchase and Generated from Onsite Renewable Systems (kWh)",
+            "type": "integer"
+          },
+          {
+            "name": "Electricity Use - Grid Purchase and Generated from Onsite Renewable Systems (kBtu)",
+            "type": "number"
+          },
+          {
+            "name": "Natural Gas Use (therms)",
+            "type": "number"
+          },
+          {
+            "name": "Natural Gas Use (kBtu)",
+            "type": "number"
+          },
+          {
+            "name": "Fuel Oil #2 Use (kBtu)",
+            "type": "string"
+          },
+          {
+            "name": "District Steam Use (kBtu)",
+            "type": "string"
+          },
+          {
+            "name": "Other Use (kBtu)",
+            "type": "string"
+          },
+          {
+            "name": "Energy Alerts",
+            "type": "string"
+          },
+          {
+            "name": "Property Use Detail Alerts",
+            "type": "string"
+          },
+          {
+            "name": "Energy Current Date",
+            "type": "date"
+          },
+          {
+            "name": "ENERGY STAR Score",
+            "type": "string"
+          },
+          {
+            "name": "National Median Site Energy Use (kBtu)",
+            "type": "number"
+          },
+          {
+            "name": "National Median Source Energy Use (kBtu)",
+            "type": "number"
+          },
+          {
+            "name": "National Median Site EUI (kBtu/ft²)",
+            "type": "number"
+          },
+          {
+            "name": "National Median Source EUI (kBtu/ft²)",
+            "type": "number"
+          },
+          {
+            "name": "Percent Better than National Median Site EUI",
+            "type": "number"
+          },
+          {
+            "name": "Percent Better than National Median Source EUI",
+            "type": "number"
+          },
+          {
+            "name": "Site Energy Use (kBtu)",
+            "type": "number"
+          },
+          {
+            "name": "Source Energy Use (kBtu)",
+            "type": "number"
+          },
+          {
+            "name": "Site EUI (kBtu/ft²)",
+            "type": "number"
+          },
+          {
+            "name": "Source EUI (kBtu/ft²)",
+            "type": "number"
+          },
+          {
+            "name": "Weather Normalized Site Energy Use (kBtu)",
+            "type": "number"
+          },
+          {
+            "name": "Weather Normalized Source Energy Use (kBtu)",
+            "type": "number"
+          },
+          {
+            "name": "Weather Normalized Site EUI (kBtu/ft²)",
+            "type": "number"
+          },
+          {
+            "name": "Weather Normalized Source EUI (kBtu/ft²)",
+            "type": "number"
+          },
+          {
+            "name": "Weather Normalized Site Electricity (kWh)",
+            "type": "number"
+          },
+          {
+            "name": "Weather Normalized Site Natural Gas Use (therms)",
+            "type": "number"
+          },
+          {
+            "name": "National Median ENERGY STAR Score",
+            "type": "integer"
+          },
+          {
+            "name": "Total GHG Emissions (MtCO2e)",
+            "type": "number"
+          },
+          {
+            "name": "Custom Property ID 1 - Name",
+            "type": "string"
+          },
+          {
+            "name": "Direct GHG Emissions (MtCO2e)",
+            "type": "number"
+          },
+          {
+            "name": "Indirect GHG Emissions (MtCO2e)",
+            "type": "number"
+          },
+          {
+            "name": "Total GHG Emissions Intensity (kgCO2e/ft²)",
+            "type": "number"
+          }
+        ]
+      }
+    },
+ {
+      "name": "BenchmarkingCompliance2012.csv",
+      "path": "City Owned Buildings/BenchmarkingCompliance2012.csv",
+      "mediatype": "text/csv",
+      "bytes": 19820,
+      "schema": {
+        "fields": [
+          {
+            "name": "Property Id",
+            "type": "integer"
+          },
+          {
+            "name": "Property Name",
+            "type": "string"
+          },
+          {
+            "name": "Parent Property Id",
+            "type": "string"
+          },
+          {
+            "name": "Parent Property Name",
+            "type": "string"
+          },
+          {
+            "name": "Year Ending",
+            "type": "date"
+          },
+          {
+            "name": "Address 1",
+            "type": "string"
+          },
+          {
+            "name": "Address 2",
+            "type": "string"
+          },
+          {
+            "name": "City",
+            "type": "string"
+          },
+          {
+            "name": "Postal Code",
+            "type": "integer"
+          },
+          {
+            "name": "Primary Property Type - Self Selected",
+            "type": "string"
+          },
+          {
+            "name": "Primary Property Type - EPA Calculated",
+            "type": "string"
+          },
+          {
+            "name": "National Median Reference Property Type",
+            "type": "string"
+          },
+          {
+            "name": "Property Floor Area (Building(s)) (ft²)",
+            "type": "integer"
+          },
+          {
+            "name": "Year Built",
+            "type": "integer"
+          },
+          {
+            "name": "Number of Buildings",
+            "type": "integer"
+          },
+          {
+            "name": "Occupancy",
+            "type": "integer"
+          },
+          {
+            "name": "Custom Property ID 1 - ID",
+            "type": "integer"
+          },
+          {
+            "name": "Philadelphia Building ID",
+            "type": "integer"
+          },
+          {
+            "name": "Electricity Use - Grid Purchase and Generated from Onsite Renewable Systems (kWh)",
+            "type": "integer"
+          },
+          {
+            "name": "Electricity Use - Grid Purchase and Generated from Onsite Renewable Systems (kBtu)",
+            "type": "number"
+          },
+          {
+            "name": "Natural Gas Use (therms)",
+            "type": "number"
+          },
+          {
+            "name": "Natural Gas Use (kBtu)",
+            "type": "number"
+          },
+          {
+            "name": "Fuel Oil #2 Use (kBtu)",
+            "type": "string"
+          },
+          {
+            "name": "District Steam Use (kBtu)",
+            "type": "string"
+          },
+          {
+            "name": "Other Use (kBtu)",
+            "type": "string"
+          },
+          {
+            "name": "Energy Alerts",
+            "type": "string"
+          },
+          {
+            "name": "Property Use Detail Alerts",
+            "type": "string"
+          },
+          {
+            "name": "Energy Current Date",
+            "type": "date"
+          },
+          {
+            "name": "ENERGY STAR Score",
+            "type": "string"
+          },
+          {
+            "name": "National Median Site Energy Use (kBtu)",
+            "type": "number"
+          },
+          {
+            "name": "National Median Source Energy Use (kBtu)",
+            "type": "number"
+          },
+          {
+            "name": "National Median Site EUI (kBtu/ft²)",
+            "type": "number"
+          },
+          {
+            "name": "National Median Source EUI (kBtu/ft²)",
+            "type": "number"
+          },
+          {
+            "name": "Percent Better than National Median Site EUI",
+            "type": "number"
+          },
+          {
+            "name": "Percent Better than National Median Source EUI",
+            "type": "number"
+          },
+          {
+            "name": "Site Energy Use (kBtu)",
+            "type": "number"
+          },
+          {
+            "name": "Source Energy Use (kBtu)",
+            "type": "number"
+          },
+          {
+            "name": "Site EUI (kBtu/ft²)",
+            "type": "number"
+          },
+          {
+            "name": "Source EUI (kBtu/ft²)",
+            "type": "number"
+          },
+          {
+            "name": "Weather Normalized Site Energy Use (kBtu)",
+            "type": "number"
+          },
+          {
+            "name": "Weather Normalized Source Energy Use (kBtu)",
+            "type": "number"
+          },
+          {
+            "name": "Weather Normalized Site EUI (kBtu/ft²)",
+            "type": "number"
+          },
+          {
+            "name": "Weather Normalized Source EUI (kBtu/ft²)",
+            "type": "number"
+          },
+          {
+            "name": "Weather Normalized Site Electricity (kWh)",
+            "type": "number"
+          },
+          {
+            "name": "Weather Normalized Site Natural Gas Use (therms)",
+            "type": "number"
+          },
+          {
+            "name": "National Median ENERGY STAR Score",
+            "type": "integer"
+          },
+          {
+            "name": "Total GHG Emissions (MtCO2e)",
+            "type": "number"
+          },
+          {
+            "name": "Custom Property ID 1 - Name",
+            "type": "string"
+          },
+          {
+            "name": "Direct GHG Emissions (MtCO2e)",
+            "type": "number"
+          },
+          {
+            "name": "Indirect GHG Emissions (MtCO2e)",
+            "type": "number"
+          },
+          {
+            "name": "Total GHG Emissions Intensity (kgCO2e/ft²)",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BenchmarkingCompliance2013.csv",
+      "path": "City Owned Buildings/BenchmarkingCompliance2013.csv",
+      "mediatype": "text/csv",
+      "bytes": 19776,
+      "schema": {
+        "fields": [
+          {
+            "name": "Property Id",
+            "type": "integer"
+          },
+          {
+            "name": "Property Name",
+            "type": "string"
+          },
+          {
+            "name": "Parent Property Id",
+            "type": "string"
+          },
+          {
+            "name": "Parent Property Name",
+            "type": "string"
+          },
+          {
+            "name": "Year Ending",
+            "type": "date"
+          },
+          {
+            "name": "Address 1",
+            "type": "string"
+          },
+          {
+            "name": "Address 2",
+            "type": "string"
+          },
+          {
+            "name": "City",
+            "type": "string"
+          },
+          {
+            "name": "Postal Code",
+            "type": "integer"
+          },
+          {
+            "name": "Primary Property Type - Self Selected",
+            "type": "string"
+          },
+          {
+            "name": "Primary Property Type - EPA Calculated",
+            "type": "string"
+          },
+          {
+            "name": "National Median Reference Property Type",
+            "type": "string"
+          },
+          {
+            "name": "Property Floor Area (Building(s)) (ft²)",
+            "type": "integer"
+          },
+          {
+            "name": "Year Built",
+            "type": "integer"
+          },
+          {
+            "name": "Number of Buildings",
+            "type": "integer"
+          },
+          {
+            "name": "Occupancy",
+            "type": "integer"
+          },
+          {
+            "name": "Custom Property ID 1 - ID",
+            "type": "integer"
+          },
+          {
+            "name": "Philadelphia Building ID",
+            "type": "integer"
+          },
+          {
+            "name": "Electricity Use - Grid Purchase and Generated from Onsite Renewable Systems (kWh)",
+            "type": "number"
+          },
+          {
+            "name": "Electricity Use - Grid Purchase and Generated from Onsite Renewable Systems (kBtu)",
+            "type": "number"
+          },
+          {
+            "name": "Natural Gas Use (therms)",
+            "type": "number"
+          },
+          {
+            "name": "Natural Gas Use (kBtu)",
+            "type": "number"
+          },
+          {
+            "name": "Fuel Oil #2 Use (kBtu)",
+            "type": "string"
+          },
+          {
+            "name": "District Steam Use (kBtu)",
+            "type": "string"
+          },
+          {
+            "name": "Other Use (kBtu)",
+            "type": "string"
+          },
+          {
+            "name": "Energy Alerts",
+            "type": "string"
+          },
+          {
+            "name": "Property Use Detail Alerts",
+            "type": "string"
+          },
+          {
+            "name": "Energy Current Date",
+            "type": "date"
+          },
+          {
+            "name": "ENERGY STAR Score",
+            "type": "string"
+          },
+          {
+            "name": "National Median Site Energy Use (kBtu)",
+            "type": "number"
+          },
+          {
+            "name": "National Median Source Energy Use (kBtu)",
+            "type": "number"
+          },
+          {
+            "name": "National Median Site EUI (kBtu/ft²)",
+            "type": "number"
+          },
+          {
+            "name": "National Median Source EUI (kBtu/ft²)",
+            "type": "number"
+          },
+          {
+            "name": "Percent Better than National Median Site EUI",
+            "type": "number"
+          },
+          {
+            "name": "Percent Better than National Median Source EUI",
+            "type": "number"
+          },
+          {
+            "name": "Site Energy Use (kBtu)",
+            "type": "number"
+          },
+          {
+            "name": "Source Energy Use (kBtu)",
+            "type": "number"
+          },
+          {
+            "name": "Site EUI (kBtu/ft²)",
+            "type": "number"
+          },
+          {
+            "name": "Source EUI (kBtu/ft²)",
+            "type": "number"
+          },
+          {
+            "name": "Weather Normalized Site Energy Use (kBtu)",
+            "type": "number"
+          },
+          {
+            "name": "Weather Normalized Source Energy Use (kBtu)",
+            "type": "number"
+          },
+          {
+            "name": "Weather Normalized Site EUI (kBtu/ft²)",
+            "type": "number"
+          },
+          {
+            "name": "Weather Normalized Source EUI (kBtu/ft²)",
+            "type": "number"
+          },
+          {
+            "name": "Weather Normalized Site Electricity (kWh)",
+            "type": "number"
+          },
+          {
+            "name": "Weather Normalized Site Natural Gas Use (therms)",
+            "type": "number"
+          },
+          {
+            "name": "National Median ENERGY STAR Score",
+            "type": "integer"
+          },
+          {
+            "name": "Total GHG Emissions (MtCO2e)",
+            "type": "number"
+          },
+          {
+            "name": "Custom Property ID 1 - Name",
+            "type": "string"
+          },
+          {
+            "name": "Direct GHG Emissions (MtCO2e)",
+            "type": "number"
+          },
+          {
+            "name": "Indirect GHG Emissions (MtCO2e)",
+            "type": "number"
+          },
+          {
+            "name": "Total GHG Emissions Intensity (kgCO2e/ft²)",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ]
+}
